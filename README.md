@@ -31,17 +31,17 @@ $ npm run test
 ### AWS
 * Na AWS poderão ser acessados os lambdas do projeto:
   * Assinaturas
-   > vxm-ms-subscriptions-subscription-update
-   >
-   > vxm-ms-subscriptions-addon-update
-   >
-   > vxm-ms-subscriptions-subscription-cancel
-   >
-   > vxm-ms-subscriptions-subscription-create
-   >
-   > vxm-ms-subscriptions-subscription-reactivate
-   >
-   > vxm-ms-subscriptions-subscription-read
+    > vxm-ms-subscriptions-subscription-update
+    >
+    > vxm-ms-subscriptions-addon-update
+    >
+    > vxm-ms-subscriptions-subscription-cancel
+    >
+    > vxm-ms-subscriptions-subscription-create
+    >
+    > vxm-ms-subscriptions-subscription-reactivate
+    >
+    > vxm-ms-subscriptions-subscription-read
   * Cobrança e cancelamento automático
    > vxm-ms-subscriptions-queue-payment-producer
    >
