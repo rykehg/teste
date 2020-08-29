@@ -31,16 +31,25 @@ $ npm run test
 * Na AWS poderão ser acessados os lambdas do projeto:
   * Assinaturas
   > vxm-ms-subscriptions-subscription-update
+  >
   > vxm-ms-subscriptions-addon-update
+  >
   > vxm-ms-subscriptions-subscription-cancel
+  >
   > vxm-ms-subscriptions-subscription-create
+  >
   > vxm-ms-subscriptions-subscription-reactivate
+  >
   > vxm-ms-subscriptions-subscription-read
   * Cobrança e cancelamento automático
   > vxm-ms-subscriptions-queue-payment-producer
+  >
   > vxm-ms-subscriptions-queue-cancellation-producer
+  >
   > vxm-ms-subscriptions-queue-payment-consumer
+  >
   > vxm-ms-subscriptions-queue-cancellation-consumer
+  
 * Nos lambdas os serviços de configuração, permissões e monitoramento.
 * Configurações:
   * Nas configurações estão as variáveis de ambiente incluindo as configurações para acesso ao banco de dados.
