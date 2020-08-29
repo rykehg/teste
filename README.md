@@ -27,8 +27,21 @@ $ npm run coverage
 $ npm run test 
 ```
 
-* O realizar o deploy para alpha o CI/CD irá automáticamente subir o serviço para a AWS.
-* Na AWS poderão ser acessados os lambdas e os serviços de configuração, permissões e monitoramento.
+* Ao realizar o deploy para alpha o CI/CD irá automáticamente colocar o serviço na AWS.
+* Na AWS poderão ser acessados os lambdas do projeto:
+  * Assinaturas
+  > vxm-ms-subscriptions-subscription-update
+  > vxm-ms-subscriptions-addon-update
+  > vxm-ms-subscriptions-subscription-cancel
+  > vxm-ms-subscriptions-subscription-create
+  > vxm-ms-subscriptions-subscription-reactivate
+  > vxm-ms-subscriptions-subscription-read
+  * Cobrança e cancelamento automático
+  > vxm-ms-subscriptions-queue-payment-producer
+  > vxm-ms-subscriptions-queue-cancellation-producer
+  > vxm-ms-subscriptions-queue-payment-consumer
+  > vxm-ms-subscriptions-queue-cancellation-consumer
+* Nos lambdas os serviços de configuração, permissões e monitoramento.
 * Configurações:
   * Nas configurações estão as variáveis de ambiente incluindo as configurações para acesso ao banco de dados.
   * No botão testar poderão ser usados os modelos de requests de cada lambda para testar o funcionamento do serviço.
