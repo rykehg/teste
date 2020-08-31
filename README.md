@@ -45,9 +45,9 @@ $ npm run test
 
 ### AWS
 * Ao entrar na AWS procure pelo serviço Lambda.
-![AWS](docs\AWS.png)
+![AWS](docs/AWS.png)
 * Na AWS poderão ser acessados os lambdas do projeto:
-![AWS Lambdas](docs\AWS-Lambdas.png)
+![AWS Lambdas](docs/AWS-Lambdas.png)
   * Assinaturas
     > vxm-ms-subscriptions-subscription-create
     >
@@ -75,9 +75,9 @@ $ npm run test
 * Configurações:
   * Nas configurações estão as variáveis de ambiente incluindo as configurações para acesso ao banco de dados.
   * No botão testar poderão ser usados os modelos de requests de cada lambda para testar o funcionamento do serviço.
-![Lambda Confg](docs\AWS-Lambda-configuracoes.png)
+![Lambda Confg](docs/AWS-Lambda-configuracoes.png)
 * Monitoramento
   * É possível acompanhar as métricas do lambda especifico e acessar os logs.
   * Os logs podem ser acessados pelo botão "Visualizar logs no CloudWatch"
   * Nos logs também é possível, caso necessário, verificar a resposta de um objeto especifico do código (usando console.log(obj)).
-![Lambda monit](docs\AWS-Lambda-monitoramento.png)
+![Lambda monit](docs/AWS-Lambda-monitoramento.png)
